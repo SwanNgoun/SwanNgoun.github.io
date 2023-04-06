@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+
+    background-image: url("planeteVivant.jpg");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: left top;
+}
+.invisible{
+    display: none;
+}
+input:invalid {
+    background-image: url(x.jpg);
+    background-size: 5%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    border: solid crimson 1px;
+}
+input:valid {
+    background-image: url(check.webp);
+    background-size: 5%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    border: solid green 1px;
+}
+#ajouterAuServer{
+    background-image: none;
+}
+#commander{
+    background-image: none;
+}
+#imagebg{
+    background-image: url("savePlanet.jpg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: right top;
+}
+h1{
+    text-indent: 9rem;
+}
